@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLUX</title>
+</head>
+<style>
+    img{
+        height: 100px;
+        width: 106px;
+        padding: 10px;
+    }
+    body{
+        background-color: black;
+    }
+    #signin{
+        padding: 10px;
+        background-color: red;
+        border-radius: 0.5rem;
+        float: right;
+        margin-top: 45px;
+        border: black;
+        margin-right: 10px;
+    }
+    #language{
+        padding: 10px;
+        background-color: white;
+        border-radius: 0.5rem;
+        float: right;
+        margin-top: 45px;
+        border: black;
+        margin-right: 10px;
+    }
+ 
+    #navbar{
+        background-image: url("IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+        height: 100%;
+        z-index: -1;
+    }
+h1{color: white;
+   font-size:50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 100px;}
+#line2{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#line3{
+    font-size: 20px;
+    color: white;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.line4{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 310px;
+    margin-left: 30px;
+}
+.line5{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+#email{
+    height: 45px;
+    width: 45%;
+    background-color:transparent;
+    color:white;
+    border: rgba(255, 255, 255, 0);
+    border: solid;
+    border-radius: 1rem;
+    margin-bottom: 50px;
+}
+#getstarted{
+    padding: 10px;
+        background-color: red;
+        border-radius: 0.5rem;
+        float: right;
+        margin-top: 45px;
+        border: black;
+        margin-right: 10px;
+}
+#get{
+    display:inline block;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+#second{
+     margin-top: 100px;
+     margin-left: 0px;
+     display:flex;
+    }
+#email,#gerstarted{margin: 0;}
+#tv1{
+    float: right;
+    height: 400px;
+    width: 500px;
+    display: block;
+   
+}
+.tv{
+    color: white;
+    float: left;
+    margin-top: 170px;
+    color: white;
+   font-size:50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-left: 30px;
+}
+.mobileimg{
+    height: 500px;
+    width: 600px;
+  
+}
+.mobile{
+    color: white;
+    float: right;
+    margin-top: 200px;
+    color: white;
+   font-size:50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+
+}
+#line7{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 360px;
+    display: flex;
+    float: right;
+}
+#device{
+    float: right;
+    height: 400px;
+    width: 500px;
+    margin-right: 50px;
+}
+#line6{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 300px;
+}
+#children{
+    color: white;
+    float: right;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+   font-size:50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-right: 0px;
+}
+#fourth{
+    display: flex;
+}
+#FAQ{
+    color: white;
+
+    margin-top: 170px;
+    color: white;
+   font-size:50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+</style>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Netflix.png" alt="logo">
+            <button id="signin" onclick= "window.open('movies.html')">Start streaming</button>
+        </div>
+       <emp><center><h1>Unlimited movies, TV shows and more.</h1></center></emp>
+       <br>
+       <center><p id="line2">Watch anywhere. Cancel anytime.</p></center>
+       <br>
+
+    </nav>
+    
+    <b><emp><center><p class="tv">Enjoy on your TV.</p></center></emp></b>
+    <img id="tv1" src="tv.png">
+    <p class="line4">Watch on smart TVs, PlayStation, Xbox,</p>
+    <p class="line5">Chromecast, Apple TV, Blu-ray players and more.</p>
+
+    <div id="second">
+      <img src="mobile.jpg" class="mobileimg">
+     <b><p class="mobile">Download your shows to watch offline.</p></b>
+    </div>
+    <div id="third">
+        <img src="device-pile-in.png" alt="device3" id="device">
+    <center> <b><p class="tv">Watch everywhere.</p></b> </center> 
+    </div>
+   <center><p id="line6">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p> </center> 
+  <div id="fourth">
+    <img src="choti bacchi ho kya.png" alt="" class="mobileimg">
+
+  <center><b><p id="children">Create profiles for children.</p></b></center>
+
+  </div>
+
+</body>
+</html>
